@@ -3,7 +3,7 @@ version: '2'
 services:
   myapp:
     tty: true
-    image: docker.io/bitnami/laravel:7-debian-10
+    image: bitnami/laravel
     environment:
       - DB_HOST=db
       - DB_USERNAME=root
